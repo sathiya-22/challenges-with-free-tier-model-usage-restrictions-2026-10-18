@@ -1,0 +1,24 @@
+```json
+{
+  "id": "chatcmpl-fixture12345",
+  "object": "chat.completion",
+  "created": 1677652391,
+  "model": "free-tier-llm-fixture-v1",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "As a free-tier model, I'm happy to provide a story for you! Once upon a time, in a small village nestled beside a whispering forest, lived a curious squirrel named Nutkin. Nutkin loved to collect acorns, but not just any acorns – only those with perfectly smooth shells. One day, he discovered a hidden grove filled with the most exquisite, shimmering acorns he had ever seen. Little did he know, these weren't ordinary acorns, but enchanted seeds that, when planted, would grow into trees bearing the sweetest, most melodious nuts in all the land. Nutkin, with his keen eye for quality, had stumbled upon a magical secret, and the village would soon echo with the joyful tunes of his discovery."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 15,
+    "completion_tokens": 120,
+    "total_tokens": 135
+  }
+}
+```
